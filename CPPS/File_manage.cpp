@@ -11,18 +11,18 @@ Obras ReadInfo(){
     int badges, money, level;
 
     ifstream infile; //file var
-    infile.open("TXTS/save1.txt"); //open file
+    infile.open("BANCO/Data_bank.txt"); //open file
 
     if (!infile) { // testing if opening went well
-        cerr << "ERROR IN FILE: TRAINER READ" << std::endl;
-        Trainer missingno("file error");
-        return missingno;
+        cerr << "ERROR IN FILE: READ INFO" << std::endl;
+        Obras failling("file error", );
+        return failling;
     }
 
     // Read the file line by line and store the data
     infile >> name >> badges >> money >> level;
    //position and progress 
-    Trainer player(name, badges, level, money); // after reading data, creates the player again
+    Obras player(name, badges, level, money); // after reading data, creates the player again
     infile.close(); //close file
     
     return player;
