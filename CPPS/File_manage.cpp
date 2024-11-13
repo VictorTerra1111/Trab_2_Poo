@@ -22,7 +22,7 @@ Obras ReadInfo()
     }
 
     // Read the file line by line and store the data
-    infile >> titulo >> autor >> subGenero >> midia >> anoPublicacao;
+    infile >> titulo >> autor >> subGenero >> anoPublicacao >> midia;
     // position and progress
     Obras piece(titulo, autor, subGenero, midia, anoPublicacao); // after reading data, creates the piece again
     infile.close();                                              // close file

@@ -1,10 +1,8 @@
 #ifndef FILE_MANAGE_HPP
 #define FILE_MANAGE_HPP
 
-#include <Obras.hpp>
+#include "Obras.hpp"
 
-Obras ReadTrainerInfo();
-
-bool WriteTrainerInfo(Obras piece);
+Obras ReadInfo();
 
 #endif
