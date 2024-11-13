@@ -1,9 +1,11 @@
-#include "Obras.hpp"
+#include "../HPPS/Obras.hpp"
+#include <iostream>
 
 using namespace std;
 
-Obras::Obras(const string& titulo, const string& autor, const string& genero, int anoPublicacao, const string& midia)
-    : titulo(titulo), autor(autor), genero(genero), anoPublicacao(anoPublicacao), midia(midia) {}
+Obras::Obras(const string& titulo, const string& autor, 
+const string& subGenero, const string& midia, int anoPublicacao): 
+titulo(titulo), autor(autor), subGenero(subGenero), anoPublicacao(anoPublicacao), midia(midia) {}
 
 string Obras::getTitulo() const {
     return titulo;
@@ -13,14 +15,14 @@ string Obras::getAutor() const {
     return autor;
 }
 
-string Obras::getSubGenero() const {
-    return genero;
+string Obras::getsubGenero() const {
+    return subGenero;
 }
 
 int Obras::getAnoPublicacao() const {
     return anoPublicacao;
 }
 
-int Obras::getMidia() const {
+string Obras::getMidia() const {
     return midia;
 }

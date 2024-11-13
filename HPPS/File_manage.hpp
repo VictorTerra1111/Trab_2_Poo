@@ -7,9 +7,4 @@ Obras ReadTrainerInfo();
 
 bool WriteTrainerInfo(Obras piece);
 
-bool ReadTeamInfo();
-
-bool WriteTeamInfo();
-
-
 #endif
