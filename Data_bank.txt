@@ -1,0 +1,13 @@
+Alien Filme Ridley_Scott 1979 Horror_Cósmico
+Enigma_de_outro_mundo Filme John_Carpenter 1982 Horror_Cósmico
+I_have_no_mouth_and_I_must_scream Livro Harlan_Ellison 1967 Distopia
+All_tomorrows Livro C._M._Kosemen 2006 Ficção_Especulativa
+Star_Wars Filme George_Lucas 1977 Space_Opera
+Frankenstein Livro Mary_Shelley 1818 Ficção_Científica_Gótica
+Dracula Livro Bram_Stoker 1897 Ficção_Científica_Gótica
+O_castelo_de_Otranto Livro Horace_Walpole 1764 Ficção_Gótica
+Avatar Filme James_Cameron 2009 Ficção_Científica
+Dune Livro Frank_Herbert 1965 Space_Opera
+Dune_2 Livro Frank_Herbert 1969 Space_Opera
+Star_Wars_Ultimos_Jogos VideoGame Vários_Autores 2015 Space_Opera
+A_guerra_dos_mundos Livro H._G._Wells 1898 Invasão_Alienígena
