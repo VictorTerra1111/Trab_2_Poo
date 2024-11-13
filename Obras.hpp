@@ -7,20 +7,21 @@ using namespace std;
 
 class Obras {
 public:
-    Obras(const string& titulo, const string& autor, const string& genero, int anoPublicacao, int vendas);
+    Obras(const string& titulo, const string& autor, const string& genero, const string& midia, int anoPublicacao);
 
     string getTitulo() const;
     string getAutor() const;
     string getGenero() const;
+    string getMidia() const;
     int getAnoPublicacao() const;
-    int getVendas() const;
 
 private:
     string titulo;
     string autor;
+    string midia;
     string genero;
     int anoPublicacao;
-    int vendas;
+
 };
 
 #endif
